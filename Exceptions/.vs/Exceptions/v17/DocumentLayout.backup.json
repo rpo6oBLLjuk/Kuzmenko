@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Musat\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Kuzmenko\\Exceptions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE96328B-B9F8-4AEC-8630-CF1500C420F2}|Exceptions\\Exceptions.csproj|c:\\users\\musat\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\kuzmenko\\exceptions\\exceptions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE96328B-B9F8-4AEC-8630-CF1500C420F2}|Exceptions\\Exceptions.csproj|solutionrelative:exceptions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Musat\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Kuzmenko\\Exceptions\\Exceptions\\Program.cs",
+              "RelativeDocumentMoniker": "Exceptions\\Program.cs",
+              "ToolTip": "C:\\Users\\Musat\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\Kuzmenko\\Exceptions\\Exceptions\\Program.cs",
+              "RelativeToolTip": "Exceptions\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:47:21.068Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
