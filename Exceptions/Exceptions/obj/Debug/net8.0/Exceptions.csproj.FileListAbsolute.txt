@@ -12,3 +12,4 @@ C:\Users\Musat\Документы\GitHub\Kuzmenko\Exceptions\Exceptions\obj\Debu
 C:\Users\Musat\Документы\GitHub\Kuzmenko\Exceptions\Exceptions\obj\Debug\net8.0\Exceptions.pdb
 C:\Users\Musat\Документы\GitHub\Kuzmenko\Exceptions\Exceptions\obj\Debug\net8.0\Exceptions.genruntimeconfig.cache
 C:\Users\Musat\Документы\GitHub\Kuzmenko\Exceptions\Exceptions\obj\Debug\net8.0\ref\Exceptions.dll
+C:\Users\Musat\Документы\GitHub\Kuzmenko\Exceptions\Exceptions\obj\Debug\net8.0\Exceptions.sourcelink.json

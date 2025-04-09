@@ -4,8 +4,6 @@ public static class Programm
 {
     public static void Main()
     {
-        Console.WriteLine("Hello, World!");
-
         while (true)
         {
             Qwerty();
@@ -14,21 +12,19 @@ public static class Programm
 
     public static void Qwerty()
     {
-        Console.Write("Введите тип ошибки:\n 1. DivideByZeroException\n 2. FormatException\n 3. DirectoryNotFoundException\n 4. CustomException\n");
+        Console.Write("Введите тип ошибки:\n 1. DivideByZeroException\n 2. FormatException\n 3. DirectoryNotFoundException\n 4. CustomException\n\nТип: ");
         int choice;
         try
         {
             choice = int.Parse(Console.ReadLine());
         }
-        catch (FormatException)
+        catch (Exception ex)
         {
-            Console.WriteLine("Некорректный ввод. Введите число от 1 до 4.");
+            Console.WriteLine("> Некорректный ввод. Введите число от 1 до 4.\n\n");
             return;
         }
-        finally
-        {
-            Console.Clear();
-        }
+
+        Console.Write("> ");
 
         switch (choice)
         {
@@ -68,9 +64,9 @@ public static class Programm
             case 4:
                 try
                 {
-                    throw new MyException();
+                    throw new MyCustomException();
                 }
-                catch (MyException ex)
+                catch (MyCustomException ex)
                 {
                     Console.WriteLine(ex.ToString());
                 }
@@ -85,7 +81,7 @@ public static class Programm
     }
 }
 
-public class MyException : Exception
+public class MyCustomException : Exception
 {
-    public override string Message => "MyMessage";
+    public override string Message => "Моя кастомная ошибка";
 }
