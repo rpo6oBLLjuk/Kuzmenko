@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\bin\Debug\net8.0\ListProj.exe
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\bin\Debug\net8.0\ListProj.deps.json
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\bin\Debug\net8.0\ListProj.runtimeconfig.json
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\bin\Debug\net8.0\ListProj.dll
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\bin\Debug\net8.0\ListProj.pdb
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ListProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ListProj.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ListProj.AssemblyInfo.cs
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ListProj.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ListProj.sourcelink.json
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ListProj.dll
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\refint\ListProj.dll
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ListProj.pdb
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ListProj.genruntimeconfig.cache
+C:\Users\Admin\Documents\Github\Kuzmenko\ListProj\obj\Debug\net8.0\ref\ListProj.dll
