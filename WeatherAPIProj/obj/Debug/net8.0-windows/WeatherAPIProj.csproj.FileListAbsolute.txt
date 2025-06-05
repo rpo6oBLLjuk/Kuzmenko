@@ -19,3 +19,4 @@ C:\Users\Musat\Documents\GitHub\Kuzmenko\WeatherAPIProj\obj\Debug\net8.0-windows
 C:\Users\Musat\Documents\GitHub\Kuzmenko\WeatherAPIProj\obj\Debug\net8.0-windows\ref\WeatherAPIProj.dll
 C:\Users\Musat\Documents\GitHub\Kuzmenko\WeatherAPIProj\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\Users\Musat\Documents\GitHub\Kuzmenko\WeatherAPIProj\bin\Debug\net8.0-windows\OpenWeatherMap.dll
+C:\Users\Musat\Documents\GitHub\Kuzmenko\WeatherAPIProj\obj\Debug\net8.0-windows\WeatherAPIProj.Properties.Resources.resources

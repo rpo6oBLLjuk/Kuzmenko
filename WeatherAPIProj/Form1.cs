@@ -1,4 +1,5 @@
 using Newtonsoft.Json;
+using System.Net;
 
 namespace WeatherAPIProj
 {
@@ -35,6 +36,10 @@ namespace WeatherAPIProj
 
 
                 weatherLabel.Text = ($"Погода в {city}: {weatherDesc}, Температура: {temp}°C");
+            }
+            catch (HttpRequestException ex) when (ex.StatusCode == HttpStatusCode.NotFound)
+            {
+                MessageBox.Show("Город не найден. Проверьте название и попробуйте снова.");
             }
             catch (Exception ex)
             {

@@ -31,13 +31,12 @@
             GetWeatherButton = new Button();
             weatherInputField = new TextBox();
             label1 = new Label();
-            label2 = new Label();
             weatherLabel = new Label();
             SuspendLayout();
             // 
             // GetWeatherButton
             // 
-            GetWeatherButton.Location = new Point(300, 350);
+            GetWeatherButton.Location = new Point(27, 148);
             GetWeatherButton.Name = "GetWeatherButton";
             GetWeatherButton.Size = new Size(200, 60);
             GetWeatherButton.TabIndex = 0;
@@ -47,7 +46,7 @@
             // 
             // weatherInputField
             // 
-            weatherInputField.Location = new Point(300, 133);
+            weatherInputField.Location = new Point(27, 93);
             weatherInputField.Name = "weatherInputField";
             weatherInputField.Size = new Size(200, 27);
             weatherInputField.TabIndex = 1;
@@ -55,43 +54,35 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(300, 93);
+            label1.BorderStyle = BorderStyle.Fixed3D;
+            label1.Location = new Point(61, 60);
             label1.Name = "label1";
-            label1.Size = new Size(111, 20);
+            label1.Size = new Size(134, 22);
             label1.TabIndex = 2;
-            label1.Text = "Enter city name";
+            label1.Text = "ENTER CITY NAME";
             label1.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(300, 193);
-            label2.Name = "label2";
-            label2.Size = new Size(64, 20);
-            label2.TabIndex = 3;
-            label2.Text = "Weather";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // weatherLabel
             // 
-            weatherLabel.AutoSize = true;
-            weatherLabel.Location = new Point(300, 246);
+            weatherLabel.BorderStyle = BorderStyle.FixedSingle;
+            weatherLabel.Location = new Point(310, 60);
             weatherLabel.Name = "weatherLabel";
-            weatherLabel.Size = new Size(0, 20);
-            weatherLabel.TabIndex = 4;
+            weatherLabel.Size = new Size(200, 148);
+            weatherLabel.TabIndex = 3;
+            weatherLabel.Text = "Weather";
             weatherLabel.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(782, 453);
+            ClientSize = new Size(539, 254);
             Controls.Add(weatherLabel);
-            Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(weatherInputField);
             Controls.Add(GetWeatherButton);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
@@ -102,7 +93,6 @@
         private Button GetWeatherButton;
         private TextBox weatherInputField;
         private Label label1;
-        private Label label2;
         private Label weatherLabel;
     }
 }
