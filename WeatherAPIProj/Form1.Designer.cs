@@ -83,7 +83,7 @@
             Controls.Add(GetWeatherButton);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "WeatherAPI";
             ResumeLayout(false);
             PerformLayout();
         }
