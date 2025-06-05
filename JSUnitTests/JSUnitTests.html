@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+  
+  <script>
+    mocha.setup('bdd');
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+  <script>
+    let assert = chai.assert;
+  </script>
+</head>
+
+<body>
+
+  <script>
+    // 1. Функция суммы двух чисел
+    function sum(a, b) {
+      return a + b;
+    }
+
+    // 2. Функция проверки числа на простоту
+    function isPrime(n) {
+      if (n <= 1) {
+    	return false;
+	} else {
+ 	   for (let i = 2; i < n; i++) {
+      	  if (n % i === 0) {
+     	       return false;
+     	       break;
+    	    }
+  	  }
+	}
+    return true;
+    }
+  </script>
+
+  <script>
+    describe("Тесты для функции sum(a, b)", function() {
+      it("должна возвращать 5 для sum(2, 3)", function() {
+        assert.equal(sum(2, 3), 5);
+      });
+      
+      it("должна возвращать 0 для sum(0, 0)", function() {
+        assert.equal(sum(0, 0), 0);
+      });
+      
+      it("должна возвращать -1 для sum(2, -3)", function() {
+        assert.equal(sum(2, -3), -1);
+      });
+      
+      it("должна возвращать -5 для sum(-2, -3)", function() {
+        assert.equal(sum(-2, -3), -5);
+      });
+      
+      it("должна возвращать 1.5 для sum(1, 0.5)", function() {
+        assert.equal(sum(1, 0.5), 1.5);
+      });
+    });
+
+    describe("Тесты для функции isPrime(n)", function() {
+      const primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29];
+      const nonPrimes = [4, 6, 8, 9, 10, 12, 14, 15, 16, 18];
+      
+      primes.forEach(n => {
+        it(`должна возвращать true для простого числа ${n}`, function() {
+          assert.isTrue(isPrime(n));
+        });
+      });
+      
+      nonPrimes.forEach(n => {
+        it(`должна возвращать false для составного числа ${n}`, function() {
+          assert.isFalse(isPrime(n));
+        });
+      });
+      
+      it("должна возвращать false для числа 1", function() {
+        assert.isFalse(isPrime(1));
+      });
+      
+      it("должна возвращать false для числа 0", function() {
+        assert.isFalse(isPrime(0));
+      });
+      
+      it("должна возвращать false для отрицательного числа", function() {
+        assert.isFalse(isPrime(-7));
+      });
+    });
+  </script>
+
+  <div id="mocha"></div>
+
+  <script>
+    mocha.run();
+  </script>
+</body>
+</html>

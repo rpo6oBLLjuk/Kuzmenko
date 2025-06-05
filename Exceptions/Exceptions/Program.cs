@@ -1,6 +1,4 @@
-﻿
-
-public static class Programm
+﻿public static class Programm
 {
     public static void Main()
     {
