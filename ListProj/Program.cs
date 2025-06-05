@@ -32,7 +32,7 @@
         Console.WriteLine($">> Clone: [{string.Join(", ", clone)}]");
     }
 
-    private static void WriteList(bool writeline = true)
+    private static void WriteList()
     {
         Console.Write(">> List: [");
 
@@ -48,10 +48,7 @@
             Console.Write(array[array.Length - 1]);
         }
 
-        if (writeline)
-            Console.WriteLine("]");
-        else
-            Console.Write("]");
+        Console.WriteLine("]");
     }
 }
 
