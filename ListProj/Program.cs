@@ -1,6 +1,6 @@
 ﻿public static class Program
 {
-    public static CustomList.List<string> CustomList = new();
+    public static CustomList.List CustomList = new();
 
     public static void Main()
     {
@@ -32,7 +32,7 @@
         Console.WriteLine($"> Clone: [{string.Join(", ", clone)}]");
     }
 
-    private static void WriteList(bool writeline = true)
+    private static void WriteList()
     {
         Console.Write("> List: [");
 
@@ -48,10 +48,7 @@
             Console.Write(array[array.Length - 1]);
         }
 
-        if (writeline)
-            Console.WriteLine("]");
-        else
-            Console.Write("]");
+        Console.WriteLine("]");
     }
 }
 
@@ -59,18 +56,18 @@
 
 namespace CustomList
 {
-    public class List<T>
+    public class List
     {
         public int Length => _array.Length;
 
-        private T[] _array;
+        private string[] _array;
 
 
         public List() => _array = [];
 
-        public void AddItem(T addedItem)
+        public void AddItem(string addedItem)
         {
-            T[] newArray = new T[_array.Length + 1];
+            string[] newArray = new string[_array.Length + 1];
 
             for (int i = 0; i < _array.Length; i++)
                 newArray[i] = _array[i];
@@ -83,7 +80,7 @@ namespace CustomList
             if (_array.Length < droppedItemIndex - 1)
                 return;
 
-            T[] newArray = new T[_array.Length - 1];
+            string[] newArray = new string[_array.Length - 1];
 
             for (int i = 0; i < droppedItemIndex; i++)
                 newArray[i] = _array[i];
@@ -93,8 +90,8 @@ namespace CustomList
             _array = newArray;
         }
 
-        public T Item(int index) => _array[index];
-        public T[] GetDOMObject() => _array;
+        public string Item(int index) => _array[index];
+        public string[] GetDOMObject() => _array;
     }
 }
 #endregion
